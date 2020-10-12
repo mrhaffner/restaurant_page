@@ -1,1 +1,2 @@
-alert('hi, guy')
+import { loadPage } from './pageload';
+loadPage();
