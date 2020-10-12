@@ -1,1 +1,1 @@
-alert("hi, guy");
+(()=>{"use strict";document.getElementById("content"),((e,t)=>{const n=document.createElement(e),c=document.createTextNode(t);n.appendChild(c),content.appendChild(n)})("h1","Future Burger")})();
