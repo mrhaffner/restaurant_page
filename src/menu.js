@@ -2,7 +2,7 @@ import { addText, container } from './createfunction';
 
 const loadMenuPage = () => {
     addText(container, 'h2', null, null, 'Menu');
-    addText(container, 'h3', null, null, 'Burgers');
+    addText(container, 'h3', null, null, 'Juicy Lucy Burgers');
     addText(container, 'p', null, null, 'Ameriburger');
     addText(container, 'p', null, null, 'A burger stuffed inside a burger');
     addText(container, 'p', null, null, 'The Angry Goat');

@@ -13,6 +13,7 @@ const addText = (parentElement, elementType, inputId, inputClass, text) => {
 
 const content = document.getElementById('content');
 const container = document.createElement('div');
+container.id = 'divContainer';
 
 export { addText, content, container };
 
