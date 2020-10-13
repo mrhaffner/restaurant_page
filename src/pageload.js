@@ -1,14 +1,14 @@
-import { addText, content } from './createfunction';
+import { addText, content, container } from './createfunction';
 
 const loadPage = () => {
     const navBar = document.createElement('ul');
     // navBar.id = nav_bar;
     content.appendChild(navBar);
-    
-    addText(navBar, 'li', null, null, 'Home');
-    addText(navBar, 'li', null, null, 'Menu');
-    addText(navBar, 'li', null, null, 'Contact');
+    addText(navBar, 'li', 'homeBtn', 'navBtn', 'Home');
+    addText(navBar, 'li', 'menuBtn', 'navBtn', 'Menu');
+    addText(navBar, 'li', 'contactBtn', 'navBtn', 'Contact');
     addText(content, 'h1', null, null, 'Future Burger');
+    content.appendChild(container);
 }
 
 export { loadPage };

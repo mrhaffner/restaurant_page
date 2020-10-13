@@ -4,5 +4,5 @@ import { loadMenuPage } from './menu';
 import { loadContactPage } from './contact';
 loadPage();
 // loadMainPage();
-// loadMenuPage();
+loadMenuPage();
 // loadContactPage();
