@@ -1,4 +1,4 @@
-import { addText, content, container } from './createfunction';
+import { addText, content, container, cont } from './createfunction';
 
 const loadPage = () => {
     const navBar = document.createElement('ul');
@@ -14,6 +14,9 @@ const loadPage = () => {
     content.appendChild(header)
     addText(header, 'h1', null, null, 'Future Burger');
     content.appendChild(container);
+    
+    
+    container.appendChild(cont)
     
 }
 

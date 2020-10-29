@@ -6,8 +6,8 @@ import { loadContactPage } from './contact';
 loadPage();
 
 function clearContainer() {    
-    while(container.firstChild){
-    container.removeChild(container.firstChild);
+    while(cont.firstChild){
+    cont.removeChild(cont.firstChild);
 };
 
 }
