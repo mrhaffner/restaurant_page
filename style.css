@@ -27,10 +27,14 @@ header {
 }
 
 #divContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#cont {
     width: 65%;
     background-color:white;
-    
-    top: 19%;
+    align-self: center;
+    top: 18%;
     position: absolute;
-    
 }
