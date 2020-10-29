@@ -17,13 +17,15 @@ ul {
 }
 
 img {
-    height: 30%;
-    width: 30%;
+    height: 35%;
+    width: 35%;
 }
 
 header {
     background-color: red;
-    padding: 3vh 0 10vh 0;
+    padding: 2vh 0 12vh 0;
+    display: flex;
+    justify-content: center;
 }
 
 #divContainer {
@@ -35,6 +37,34 @@ header {
     width: 65%;
     background-color:white;
     align-self: center;
-    top: 18%;
+    top: 21%;
     position: absolute;
+}
+
+p {
+    padding: 0 10vh
+}
+
+h1 {
+    color: white;
+    font-family: Kelvinized;
+    border: .4vh white solid;
+    width: 50%;
+    padding: 1vh 0;
+    border-radius: 50%;
+}
+
+@font-face {
+    font-family: Greasy;
+    src: url("./Greasy.ttf");
+}
+
+@font-face {
+    font-family: Ham;
+    src: url("./Ham.ttf");
+}
+
+@font-face {
+    font-family: Kelvinized;
+    src: url("./Kelvinized.ttf");
 }
