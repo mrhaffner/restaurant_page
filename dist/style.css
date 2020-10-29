@@ -1,15 +1,21 @@
-body { margin:0; }
+body { 
+    margin: 0;
+    font-family: ComicNeue;
+ }
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 1vh 0;
+    padding: 1.1vh 0;
 }
 
 .nav_btn {
     display: inline;
-    padding-right: 1em;
+    padding: 0 3vh;
     cursor: pointer;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.9vh;;
   }
 
 #content {
@@ -23,7 +29,7 @@ img {
 
 header {
     background-color: red;
-    padding: 2vh 0 12vh 0;
+    padding: 2.5vh 0 12vh 0;
     display: flex;
     justify-content: center;
 }
@@ -34,11 +40,13 @@ header {
 }
 
 #cont {
-    width: 65%;
+    width: 55%;
     background-color:white;
     align-self: center;
     top: 21%;
     position: absolute;
+    
+
 }
 
 p {
@@ -55,16 +63,11 @@ h1 {
 }
 
 @font-face {
-    font-family: Greasy;
-    src: url("./Greasy.ttf");
-}
-
-@font-face {
-    font-family: Ham;
-    src: url("./Ham.ttf");
-}
-
-@font-face {
     font-family: Kelvinized;
     src: url("./Kelvinized.ttf");
+}
+
+@font-face {
+    font-family: ComicNeue;
+    src: url("./ComicNeue.ttf");
 }

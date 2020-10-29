@@ -18,7 +18,7 @@ const loadMenuPage = () => {
     addText(cont, 'p', null, null, 'The more colorful brother of the American Fries');
     addText(cont, 'h3', null, null, 'Beer');
     addText(cont, 'p', null, null, 'High Hops IPA');
-    addText(cont, 'p', null, null, "This microbrew's hops cont is outnull, null,  of this world");
+    addText(cont, 'p', null, null, "This microbrew's hops cont is out of this world");
     addText(cont, 'p', null, null, 'Obscure Reference Lager');
     addText(cont, 'p', null, null, "It's definitely cooler if no one has heard of your favorite brew");
 }
